@@ -23,9 +23,6 @@ WHERE gross = '';
 ALTER TABLE movies
 MODIFY COLUMN gross BIGINT;
 
-
- 
-
 -- check for null value
 SELECT *FROM movies
 where name is null
@@ -161,5 +158,5 @@ HAVING COUNT(*) >= 3
 ORDER BY avg_rating DESC
 LIMIT 10;
 
-SELECT * FROM movies;
+
 
